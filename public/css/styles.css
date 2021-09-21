@@ -24,17 +24,19 @@ p {
 
 .dos-ul{
   display: flex;
+  justify-content:space-between;
 }
 
 #barra1{
 display: flex;
-width: 50%;
+justify-content: space-between;
 }
 
 #barra2{
 display: flex;
-width: 50%;
+justify-content: space-between;
 }
+
 
 h3 {
   text-align: center;
@@ -174,8 +176,10 @@ main section article {
   }
   main section article{
     width: 48%;
-    
-  
+  }
+  .imagen-buscador{
+    display: flex;
+    position: relative;
   }
 }
 
@@ -187,6 +191,5 @@ main section article {
   }
   main section article{
     width: 24%;
-
   }
 }
